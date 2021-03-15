@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color: #282828;
+}
+
+.container{
+    width: 1280px;
+    background-color: #ececec;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*----------------------------------  HEADER ----------------------------------*/
+header{
+    background-color: #ffffff;
+    vertical-align: middle;
+    padding-left: 152px;
+    padding-right: 162px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.5);
+    position: fixed;
+    top: auto;
+    z-index: 100;
+}
+
+header nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header p{
+    display: inline-block;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #8d8d8d;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-right: 333px;
+}
+
+header #indo{
+    color: #1298dd;
+    font-family: Segoe;
+    font-weight: bold;
+    font-size: 36px;
+    margin-right: 5px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+nav a{
+    text-decoration: none;
+    vertical-align: middle;
+    color: #5a5a5a;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 25px;
+    margin-left: 40px;
+}
+
+.buttom{
+    color: #f1f8fe;
+    background: linear-gradient(#36b1f7, #2188e8);
+    line-height: 35px;
+    border: 1px solid #1784d1;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.buttom:hover{
+    color: #f1f8fe;
+    background: linear-gradient(#2188e8, #36b1f7);
+    line-height: 35px;
+    border: 1px solid #0e6bbd;
+}
+
+.buttom:active{
+    background: linear-gradient(#2e7fca, #145981);
+}
+
+
+/*----------------------------------  MAIN ----------------------------------*/
+main{
+    width: 1280px;
+    height: 540px;
+    background-image: url("fon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#first{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Segoe;
+    font-weight: bold;
+    font-size: 52px;
+    padding-top: 145px;
+}
+
+#second{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 48px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+main a{
+    text-decoration: none;
+    font-family: Segoe;
+    font-weight: bold;
+    font-size: 35px;
+    font-weight: 25px;
+}
+
+.buttom2{
+    color: #f1f8fe;
+    background: linear-gradient(#6ad054, #37b025);
+    line-height: 58px;
+    border: 5px solid rgba(101, 155, 196, 0.9);
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 10px;
+
+    padding-bottom: 5px;
+}
+
+.buttom2:hover{
+    color: #f1f8fe;
+    background: linear-gradient(#37b025, #6ad054);
+}
+
+.buttom2:active{
+    background: linear-gradient(#4baf3b, #256915);
+}
+
+.galary{
+    width: 500px;
+    position: absolute;
+    background-color: #ffffff;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 65px;
+    border-radius: 5px;
+    border-bottom: 7px solid #51c03d;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    font-size: 0;
+    text-align: center;
+}
+
+.galary h2{
+    font-family: Segoe;
+    font-weight: lighter;
+    color: #999999;
+    font-size: 23px;
+    line-height: 70px;
+}
+
+.galary p{
+    color: #999999;
+    text-align: left;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*----------------------------------  GALARY ----------------------------------*/
+
+
+/*--------------------  UPPER --------------------*/
+.Ooty, .Munnar2, .Humpi{
+    margin: 0 5px 5px 5px;
+}
+
+.Azheekal{
+    margin: 0 5px 5px 0;
+}
+
+.Kovalam{
+    margin: 0 0 5px 5px;
+}
+
+.Azheekal{
+    display: inline-block;
+}
+
+.galary .foto1{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Azheekal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Azheekal p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Ooty{
+    display: inline-block;
+}
+.galary .foto2{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Ooty.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Ooty p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Munnar2{
+    display: inline-block;
+}
+.galary .foto3{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Munnar2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Munnar2 p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Humpi{
+    display: inline-block;
+}
+.galary .foto4{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Humpi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Humpi p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Kovalam{
+    display: inline-block;
+}
+.galary .foto5{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Kovalam.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Kovalam p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+
+/*--------------------  DOWN --------------------*/
+.down{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.Thenmala, .Beach, .Munnar{
+    margin: 5px 5px 5px 5px;
+}
+
+.Kuttanad{
+    margin: 5px 5px 5px 0;
+}
+
+.Punaloor{
+    margin: 5px 0 5px 5px;
+}
+
+.Kuttanad{
+    display: inline-block;
+}
+.galary .foto6{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Kuttanad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Kuttanad p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Thenmala{
+    display: inline-block;
+}
+.galary .foto7{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Thenmala.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Thenmala p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Beach{
+    display: inline-block;
+}
+.galary .foto8{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Beach.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Beach p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Munnar{
+    display: inline-block;
+}
+.galary .foto9{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Munnar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Munnar p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Punaloor{
+    display: inline-block;
+}
+.galary .foto10{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-image: url("Punaloor.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.galary .Punaloor p{
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+
+/*----------------------------------  SECTION ----------------------------------*/
+section{
+    padding-top: 150px;
+    text-align: center;
+}
+
+section>h2{
+    font-family: Segoe;
+    font-weight: lighter;
+    color: #999999;
+    font-size: 23px;
+    display: inline-block;
+    width: 630px;
+    padding-top: 35px;
+    line-height: 30px;
+}
+
+/*----------------------------------  CONTACTS ----------------------------------*/
+
+.contacts{
+    display: inline-block;
+    width: 1280px;
+    padding-top: 50px;
+}
+
+.earth{
+    display: inline-block;
+    vertical-align: top;
+}
+.contacts .pht1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("Earth.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-right: 55px;
+}
+
+.contacts .earth p{
+    font-size: 15px;
+    padding-top: 130px;
+    color: #727272;
+}
+
+.bag{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.contacts .pht2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("Bag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-right: 55px;
+
+}
+.contacts .bag p{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-top: 130px;
+    color: #727272;
+}
+
+.photograph{
+    display: inline-block;
+    vertical-align: top;
+}
+.contacts .pht3{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("Photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-right: 55px;
+
+}
+.contacts .photograph p{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-top: 130px;
+    color: #727272;
+}
+
+.find{
+    display: inline-block;
+    vertical-align: top;
+}
+.contacts .pht4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("Find.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+
+}
+.contacts .find p{
+    font-size: 15px;
+    padding-top: 50px;
+    padding-top: 130px;
+    color: #727272;
+}
+
+.contacts a{
+    text-decoration: none;
+}
+
+.contacts p{
+    color: #999999;
+    text-align: center;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*----------------------------------  FOOTER ----------------------------------*/
+footer{
+    background-color: #414141;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer p{
+    color: #9a9a9a;
+    font-family: Segoe;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 30px;
+}
