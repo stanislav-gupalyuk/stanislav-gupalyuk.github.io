@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Девятое занятие</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head_name">
+                <div class="logo"></div>
+                <h1>Девятое занятие</h1>
+            </div>
+            <nav>
+                <a href="../../index.html" class="button">Главная</a>
+                <a href="../Lesson 8/index.html" class="button">< предыдущее</a>
+                <a href="../Lesson 10/index.html" class="button">следующее ></a>
+            </nav>
+        </header>
+            <main>
+                <div class="content">
+                    <h3 id="head">На девятом занятии мы изучали псевдоклассы и псевдоэлементы</h3>
+                    <table class="table_2">
+                        <caption>
+                            <h3>Таблица свойств CSS</h3>
+                        </caption>
+                        <tr class="table_head">
+                            <th style="width: 15%;">Название</th><th style="width: 30%;">Пример</th><th style="width: 55%;">Описание свойства</th>
+                        </tr>
+            
+                        <tr>
+                            <td>:first-child</td><td>B:first-child { color: red; }</td><td>Псевдокласс :first-child применяет стилевое оформление к первому дочернему элементу своего родителя</td>
+                        </tr>
+                        <tr>
+                            <td>:last-child</td><td>.block :last-child { background: #dda458 url(images/line.png) repeat-x; height: 5px; }</td><td>Псевдокласс :last-child задает стилевое оформление последнего элемента своего родителя</td>
+                        </tr>
+                        <tr>
+                            <td>:first-of-type</td><td>td:first-of-type { background: #CFD6D3; }</td><td>Псевдокласс :first-of-type задает правила стилей для первого элемента в списке дочерних элементов своего родителя. К примеру, добавление :first-of-type к селектору TD устанавливает стиль для всех первых ячеек, поскольку родителем для тега /td/ выступает тег <tr></td>
+                        </tr>
+                        <tr>
+                            <td>:last-of-type</td><td>p:last-of-type:after { content: " ◄"; color: #c00000; }</td><td>Псевдокласс :last-of-type задает правила стилей для последнего элемента в списке дочерних элементов своего родителя. К примеру, добавление :last-of-type к селектору li устанавливает стиль только для последнего пункта списка, при этом не распространяется на остальные пункты</td>
+                        </tr>
+                        <tr>
+                            <td>:active</td><td>a:active { color: #f00; }</td><td>Псевдокласс :active определяет стиль для активной ссылки. Активной ссылка становится при нажатии на нее</td>
+                        </tr>
+                        <tr>
+                            <td>:hover</td><td>a:hover { background: #786b59; color: #ffe; }</td><td>Определяет стиль элемента при наведении на него курсора мыши, но при этом элемент еще не активирован, иными словами кнопка мыши не нажата</td>
+                        </tr>
+                        <tr>
+                            <td>:nth-of-type</td><td>img:nth-of-type(2n+1) { float: left; }</td><td>Псевдокласс :nth-of-type используется для добавления стиля к элементам указанного типа на основе нумерации в дереве элементов. элемент:nth-of-type(odd | even | <число> | <выражение>) {...}</td>
+                        </tr>
+                        <tr>
+                            <td>:nth-child</td><td>tr:nth-child(2n) { background: #f0f0f0; } </td><td>Псевдокласс :nth-child используется для добавления стиля к элементам на основе нумерации в дереве элементов. элемент:nth-child(odd | even | <число> | <выражение>) {...}</td>
+                        </tr>
+                        <tr>
+                            <td>:disabled</td><td>textarea:disabled { background: url(images/dline.png); border: 1px solid #666; padding: 5px; }</td><td>Псевдокласс :disabled используется для применения стиля к заблокированным элементам форм. Такие элементы не могут получить фокус, быть нажатыми или активированы, в текстовых полях нельзя набирать текст</td>
+                        </tr>
+                        <tr>
+                            <td>:required</td><td>input:required { border: 1px solid red; }</td><td>Применяет стилевые правила к тегу /input/, у которого установлен атрибут required. Он позволяет выделять поля обязательные к заполнению перед отправкой формы</td>
+                        </tr>
+                        <tr>
+                            <td>:invalid</td><td>input:invalid { background: #dfd; }</td><td>Применяется к полям формы, содержимое которых не соответствует указанному типу. Например, для type="number" должно вводиться число, а не буквы, для type="email" корректный адрес электронной почты</td>
+                        </tr>
+                        <tr>
+                            <td>:valid</td><td>input:valid { background: #dfd; }</td><td>Применяется к полям формы, содержимое которых проходит проверку в браузере на соответствие указанному типу. Например, для type="number" вводится число, а не буквы, для type="email" корректный адрес электронной почты</td>
+                        </tr>
+                        <tr>
+                            <td>:optional</td><td>input:optional { opacity: 0.5; }</td><td>Применяет стилевые правила к тегу /input/, у которого не задан атрибут required. Он позволяет выделять поля обязательные к заполнению перед отправкой формы. Таким образом :optional применяется к необязательным полям формы</td>
+                        </tr>
+                        <tr>
+                            <td>:empty</td><td>span:empty { background: red; }</td><td>Псевдокласс :empty представляет пустые элементы, иными словами такие, которые не содержат дочерних элементов, текста или пробелов. К примеру, /p/ //p/ является пустым элементов, а /p/ //p/, /p/&nbsp;//p/ или /p/эге//p/ уже нет</td>
+                        </tr>
+                        <tr>
+                            <td>:read-only</td><td>input:read-only { opacity: 0.3; }</td><td>Применяется к полям формы, у которых задан атрибут readonly. Такое поле не может быть модифицировано и получить фокус</td>
+                        </tr>
+                        <tr>
+                            <td>:read-write</td><td>input:read-write { border: 1px solid green; }</td><td>Применяется к полям формы, доступных для изменения. Псевдокласс :read-write является противоположным по своему действию :read-only, который применяется к полям с атрибутом readonly (только для чтения)</td>
+                        </tr>
+                        <tr>
+                            <td>:enabled</td><td>input:enabled { background: red; }</td><td>Псевдокласс :enabled используется для применения стиля к доступным (не заблокированным) элементам форм. По умолчанию, все элементы форм являются доступными, если в коде HTML к ним  не добавляется атрибут disabled</td>
+                        </tr>
+                        <tr>
+                            <td>:focus</td><td>#enter .form-text:focus { background: #ffe; border: 1px solid #29B0D9; }</td><td>Псевдокласс :focus определяет стиль для элемента получающего фокус. Например, им может быть текстовое поле формы, в которое устанавливается курсор</td>
+                        </tr>
+                        <tr>
+                            <td>:not</td><td>input:not([type="submit"]) { border: 1px solid #ccc; padding: 3px; }</td><td>Псевдокласс :not задаёт правила стилей для элементов, которые не содержат указанный селектор</td>
+                        </tr>
+                        <tr>
+                            <td>::after</td><td>p.new::after { content: "Новьё!"; color: #333; background-color: #fc0; font-size: 90%; padding: 2px; }</td><td>Псевдоэлемент, который используется для вывода желаемого текста после содержимого элемента, к которому он добавляется. Псевдоэлемент ::after работает совместно со свойством content</td>
+                        </tr>
+                        <tr>
+                            <td>::before</td><td>li::before { content: "¶ "; }</td><td>Псевдоэлемент ::before применяется для отображения желаемого контента до содержимого элемента, к которому он добавляется. Работает совместно со свойством content</td>
+                        </tr>
+                        <tr>
+                            <td>::-moz-placeholder</td><td>input[type="search"]::-moz-placeholder { color: #ffd595; }</td><td>Псевдокласс, с помощью которого задаётся стилевое оформление подсказывающего текста созданного атрибутом placeholder. Совместно с ::-moz-placeholder допускается использовать свойства для изменения вида текста, например, задать шрифт и цвет</td>
+                        </tr>
+                        <tr>
+                            <td>list-style</td><td>ul { list-style: square outside; }</td><td>Универсальное свойство, позволяющее одновременно задать стиль маркера, его положение, а также изображение, которое будет использоваться в качестве маркера. Для подробного ознакомления смотрите информацию о каждом свойстве list-style-type, list-style-position и list-style-image отдельно</td>
+                        </tr>
+                        <tr>
+                            <td>outline</td><td>.photo img { padding: 20px; margin-right: 10px;  margin-bottom: 10px; outline: 1px solid #666; background: #f0f0f0; float: left; }</td><td>Универсальное свойство, одновременно устанавливающее цвет, стиль и толщину внешней границы на всех четырех сторонах элемента. В отличие от линии, задаваемой через border, свойство outline не влияет на положение блока и его ширину. Также нельзя задать параметры линии на отдельных сторонах элемента, outline применяется сразу ко всем четырём сторонам</td>
+                        </tr>
+                        <tr>
+                            <td>cursor</td><td>.cross { cursor: crosshair; }</td><td>Устанавливает форму курсора, когда он находится в пределах элемента. Вид курсора зависит от операционной системы и установленных параметров</td>
+                        </tr>
+                        <tr>
+                            <td>-webkit-user-select</td><td>body { -webkit-user-select: none; }</td><td>Управляет поведением выделения текста и других элементов на странице. Несмотря на запрет или разрешение, в любом случае можно выделять содержимое текстовых полей формы</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+</body>
+</html>

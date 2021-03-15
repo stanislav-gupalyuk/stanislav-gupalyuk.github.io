@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("soty.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------- HEADER ----------------------------------------*/
+header{
+    background: linear-gradient(270deg, #65a9d0 40%, #9ed0e7 60%);
+    border-radius: 20px 20px 0 0;
+
+}
+
+.head_name{
+    display: inline-block;
+    width: 550px;
+    font-size: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.head_name .logo{
+    background-image: url("com.png");
+    display: inline-block;
+    width: 55px;
+    height: 95px;
+    padding-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.head_name h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #115a7b;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #40c0f1;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 725px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+/*---------------------------------------- SECTION-INFO ----------------------------------------*/
+.section-info{
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1280px;
+    opacity: 0.9;
+    border-top: 10px solid rgba(6, 135, 177, 0.4);
+    border-bottom: 10px solid rgba(6, 135, 177, 0.4);
+    text-align: center;
+}
+
+.class-photo{
+    display: inline-block;
+    background-image: url("pic_1.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 50px;
+    vertical-align: top;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+}
+
+.information{
+    display: inline-block;
+    width: 800px;
+    vertical-align: middle;
+}
+
+.section-info h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+    color: rgb(61, 61, 61);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.section-info p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.first{
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.second{
+    padding-bottom: 30px;
+}
+
+#it{
+    color: #115a7b;
+}
+
+/*---------------------------------------- MAIN ----------------------------------------*/
+main{
+    background: linear-gradient(270deg, #65a9d0 40%, #9ed0e7 60%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/*--------- LEFT ---------*/
+main .left{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 25px;
+    border-right: 2px solid #3f3f3f;
+}
+
+main .left .button{
+    font-size: 15px;
+    border: 2px solid #3f3f3f;
+    margin: 3px 0;
+    color: #3f3f3f;
+}
+
+main .button:hover{
+    background-color: #115a7b;
+    border: 2px solid #115a7b;
+    color: rgb(193, 255, 255);
+}
+
+/*--------- RIGHT ---------*/
+main .right{
+    display: inline-block;
+    width: 1100px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.pic{
+    display: inline-block;
+    background-image: url("pic_2.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 50px;
+    vertical-align: top;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+    margin-top: 10px;
+
+}
+
+.text{
+    display: inline-block;
+    width: 720px;
+    height: 232px;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.text p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: black;
+}
+
+.pic1{
+    display: inline-block;
+    background-image: url("pic_3.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 50px;
+    vertical-align: top;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+    margin-top: 28px;
+}
+
+.text1{
+    display: inline-block;
+    width: 720px;
+    height: 232px;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.text1 p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: black
+}
+
+.pic2{
+    display: inline-block;
+    background-image: url("pic_4.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 50px;
+    vertical-align: top;
+    box-shadow: 1px 1px 10px rgb(61, 61, 61);
+    margin-top: 30px;
+}
+
+.text2{
+    display: inline-block;
+    width: 720px;
+    height: 232px;
+    vertical-align: top;
+    padding-top: 30px;
+    padding-right: 5px;
+}
+
+.text2 p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: black
+}
+
+/*---------------------------------------- FOOTER ----------------------------------------*/
+footer{
+    line-height: 50px;
+    text-align: center;
+    color: #3f3f3f;
+    background: linear-gradient(270deg, #65a9d0 40%, #9ed0e7 60%);
+    border-radius: 0 0 20px 20px;
+    border-top: 5px solid rgba(6, 135, 177, 0.4);
+}
+
+
+
+/*--------- COMMON ---------*/
+.button{
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 25px;
+    border: 2px solid transparent;
+    display: inline-block;
+    color: #115a7b;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #115a7b;
+    color: rgb(193, 255, 255);
+}

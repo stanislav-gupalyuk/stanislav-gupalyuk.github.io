@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #282828;
+}
+
+.container{
+    width: 1280px;
+    background-color: #ffffff;
+    padding-left: 150px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+/*---------------------------------  HEADER ---------------------------------*/
+header{
+    text-align: center;
+    font-size: 0;
+}
+
+header .upper{
+    display: inline-block;
+    background-color: #80b7b3;
+    width: 300px;
+    height: 130px;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    margin-right: -150px;
+    z-index: 1;
+    box-shadow: 0 20px 25px -7px rgb(155, 156, 156);
+}
+
+header .upper h2{
+    font-family: "PlayfairDisplayRegular";
+    font-size: 68px;
+    line-height: 115px;
+    color: white;
+}
+
+header h1{
+    width: 830px;
+    color: #e9ebec;
+    font-family: "PoppinsMedium";
+    font-size: 200px;
+    line-height: 210px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 70px;
+    letter-spacing: 40px;
+    margin-right: 135px;
+}
+
+/*---------------------------------  SECTION-TRAVEL ---------------------------------*/
+.travel{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 0;
+}
+
+.travel>p{
+    color: #7d8b90;
+    text-transform: uppercase;
+    font-family: "PoppinsMedium";
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+
+.travel .left{
+    display: inline-block;
+    width: 400px;
+    margin-right: 95px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.travel .left h3{
+    color: #273d46;
+    font-family: "PlayfairDisplayRegular";
+    font-size: 34px;
+    line-height: 48px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.travel .first{
+    color: #7d8b90;
+    font-family: "PlayfairDisplayRegular";
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 20px;
+    padding-top: 44px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.travel .second{
+    color: #7d8b90;
+    font-family: "PlayfairDisplayRegular";
+    font-size: 20px;
+    line-height: 35px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
+.travel .button{
+    margin-top: 12px;
+    position: relative;
+}
+
+.travel .button span{
+    width: 25px;
+    height: 15px;
+    background-image: url("Shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 13px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.travel .middle{
+    background-color: #d6b29c;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    margin-left: -50px;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    box-shadow: -13px 10px 25px -20px rgb(155, 156, 156);
+    z-index: 1;
+}
+
+.travel .right{
+    display: inline-block;
+    width: 710px;
+    margin-left: 60px;
+    vertical-align: top;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+    border-left: 15px solid white;
+    box-shadow: -20px 20px 25px -20px rgb(155, 156, 156);
+}
+
+.travel .right .photo{
+    background-image: url("kawah.png");
+    width: 710px;
+    height: 462px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/*---------------------------------  SECTION-QUOTE ---------------------------------*/
+.quote{
+    position: relative;
+    height: 600px;
+}
+
+.quote .line-one{
+    background-color:rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    width: 650px;
+    height: 600px;
+    vertical-align: top;
+    top: 71px;
+    position: absolute;
+    background-image: url("one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 0;
+    margin-left: 45px;
+}
+
+.quote .line-two{
+    background-color:rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    width: 950px;
+    height: 600px;
+    vertical-align: top;
+    background-image: url("two.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 0;
+    margin-left: 45px;
+    position: relative;
+}
+
+.quote .full{
+    background-color:rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 1240px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+}
+
+.inform1{
+    background-color: #ced6d9;
+    display: inline-block;
+    width: 340px;
+    height: 200px;
+    margin-left: -50px;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    box-shadow: 7px 7px 25px -10px rgb(155, 156, 156);
+    position: absolute;
+    left: 10px;
+    margin-left: 110px;
+    top: 50px;
+}
+
+.inform2{
+    width: 400px;
+    height: 210px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-right: 300px;
+    top: 55px;
+}
+
+.inform2>p{
+    color: #7d8b90;
+    text-transform: uppercase;
+    font-family: "PoppinsMedium";
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    margin-top: 5px;
+}
+
+.inform2 h3{
+    color: #273d46;
+    font-family: "PlayfairDisplayRegular";
+    font-size: 34px;
+    line-height: 48px;
+    padding-right: 10px;
+}
+
+.inform3{
+    width: 670px;
+    height: 270px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 95px;
+    margin-left: 290px;
+    text-align: center;
+    padding-top: 13px;
+    box-shadow: -5px 5px 25px -10px rgb(155, 156, 156);
+}
+
+.inform3 p{
+    width: 500px;
+    font-family:"PlayfairDisplayItalic";
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+.inform3 p:after {
+    content: '\02BC''\02BC';
+}
+
+.inform3 p::before {
+    content: '\02BB''\02BB';
+}
+
+.inform3 .under{
+    text-align: left;
+    padding-left: 83px;
+    padding-top: 15px;
+    font-size: 0;
+}
+
+#diesel{
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "PoppinsMedium";
+    color: #52646b;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2px;
+
+}
+
+#age{
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    text-align: left;
+    color: #959596;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-family: "PoppinsMedium";
+    padding-left: 3px;
+}
+
+.inform3 .button{
+    margin-top: 12px;
+    position: absolute;
+    bottom: 0;
+    margin-left: -90px;
+    margin-bottom: -20px;
+}
+
+.inform3 .button span{
+    width: 25px;
+    height: 15px;
+    background-image: url("Shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 13px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.round{
+    display: inline-block;
+    background-image: url("circle.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 405px;
+    margin-left: 153px;
+
+}
+
+/*---------------------------------  FOOTER ---------------------------------*/
+footer .foot-image{
+    height: 616px;
+    text-align: center;
+}
+
+footer .image{
+    display: inline-block;
+    background-image: url("photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1430px;
+    height: 616px;
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+
+footer .contacts{
+    display: inline-block;
+    width: 660px;
+    height: 300px;
+    background-color: rgba(43, 65, 71, 0.9);
+    margin-top: 175px;
+    margin-right: 150px;
+    box-shadow: 0px 0px 5px -1px rgb(155, 156, 156);
+}
+
+footer .contacts p{
+    display: inline-block;
+    color: #d8dcdd;
+    font-family: "PoppinsMedium";
+    font-size: 16px;
+    line-height: 30px;
+    width: 490px;
+    padding-top: 50px;
+}
+
+.send{
+    width: 660px;
+    height: 150px;
+    background-color: transparent;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    position: relative;
+}
+
+.send .forms{
+    display: inline-block;
+    margin-top: 20px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #929a9c;
+}
+
+input[type='text']{
+    font-family: "PoppinsMedium";
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 30px;
+    background-color: rgba(46, 61, 66, 0.7);
+    border-radius: 25px;
+    border: 1px solid #4b5c63;
+    color: #c4d6d6;
+    outline: none;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+
+
+input[type='email']{
+    font-family: "PoppinsMedium";
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 30px;
+    background-color: rgba(46, 61, 66, 0.7);
+    border-radius: 25px;
+    border: 1px solid #4b5c63;
+    color: #c4d6d6;
+    outline: none;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+
+input[type='submit']{
+    outline: none;
+}
+
+input[value='Subscribe']{
+    letter-spacing: 2px;
+}
+
+.send .button{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 135px;
+    padding: 0 60px 0 40px;
+}
+
+
+.arrow{
+    width: 25px;
+    height: 15px;
+    background-image: url("Shape.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: 35px;
+    margin-left: 295px;
+}
+
+
+
+
+/*--------- COMMON ---------*/
+.button{
+    background-color: #80b7b3;
+    line-height: 40px;
+    font-size: 17px;
+    padding: 0 60px 0 40px;
+    border: 2px solid transparent;
+    display: inline-block;
+    color: #f7fafa;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "PoppinsMedium";
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    background-color: #5baaa5;
+    color: #f7fafa;
+}

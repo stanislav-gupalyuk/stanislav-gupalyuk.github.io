@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Десятое занятие</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head_name">
+                <div class="logo"></div>
+                <h1>Одинадцатое занятие</h1>
+            </div>
+            <nav>
+                <a href="../../index.html" class="button">Главная</a>
+                <a href="../Lesson 10/index.html" class="button">< предыдущее</a>
+                <a href="../Lesson 12/index.html" class="button">следующее ></a>
+            </nav>
+        </header>
+            <main>
+                <div class="content">
+                    <h3 id="head">На одинадцатом занятии мы продолжили разбор системы контроля версий - GIT</h3>
+                    <table class="table_2">
+                        <caption>
+                            <h3>Таблица свойств GIT</h3>
+                        </caption>
+                        <tr class="table_head">
+                            <th style="width: 20%;">Свойство</th><th style="width: 80%;">Описание свойства</th>
+                        </tr>
+            
+                        <tr>
+                            <td>.gitignore</td><td>Файл .gitignore указывает, какие неотслеживаемые файлы должен игнорировать Git</td>
+                        </tr>
+                        <tr>
+                            <td>git reset</td><td>Команда git reset, как можно догадаться из названия, используется в основном для отмены изменений. Она изменяет указатель HEAD и, опционально, состояние индекса. Также эта команда может изменить файлы в рабочем каталоге при использовании параметра --hard, что может привести к потере наработок при неправильном использовании, так что убедитесь в серьёзности своих намерений прежде чем использовать его</td>
+                        </tr>
+                        <tr>
+                            <td>git fetch</td><td>Команда git fetch связывается с удалённым репозиторием и забирает из него все изменения, которых у вас пока нет и сохраняет их локально.</td>
+                        </tr>
+                        <tr>
+                            <td>git pull</td><td>Команда git pull работает как комбинация команд git fetch и git merge, т.е. Git вначале забирает изменения из указанного удалённого репозитория, а затем пытается слить их с текущей веткой</td>
+                        </tr>
+                        <tr>
+                            <td>git revert</td><td>Команда git revert — полная противоположность git cherry-pick. Она создаёт новый коммит, который вносит изменения, противоположные указанному коммиту, по существу отменяя его</td>
+                        </tr>
+                        <tr>
+                            <td>git merge --abort</td><td>Прервет процесс слияния и попытается восстановить состояние до слияния</td>
+                        </tr>
+                        <tr>
+                            <td>git clone</td><td>На самом деле git clone работает как обёртка над некоторыми другими командами. Она создаёт новый каталог, переходит внутрь и выполняет git init для создания пустого репозитория, затем она добавляет новый удалённый репозиторий (git remote add) для указанного URL (по умолчанию он получит имя origin), выполняет git fetch для этого репозитория и, наконец, извлекает последний коммит в ваш рабочий каталог, используя git checkout</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+
+body{
+    background-image: url("soty.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(270deg, #65a9d0 40%, #9ed0e7 60%);
+    border-radius: 20px 20px 0 0;
+
+}
+
+.head_name{
+    display: inline-block;
+    width: 550px;
+    font-size: 0;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.head_name .logo{
+    background-image: url("com.png");
+    display: inline-block;
+    width: 55px;
+    height: 95px;
+    padding-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.head_name h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #115a7b;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #40c0f1;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 650px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.content{
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1280px;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid rgba(6, 135, 177, 0.4);
+    border-radius: 0 0 20px 20px;
+}
+
+.content>h3{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    line-height: 40px;
+}
+
+.content ol{
+    padding: 0 30px;
+}
+
+.li_1, .li_2, .li_3, .li_4, .li_5{
+    line-height: 40px;
+    color: rgb(54, 54, 54);
+    font-weight: 700;
+}
+
+.li_1 + h1, h2, h3, h4, h5, h6{
+    color: #063f5a
+} 
+
+.li_2 + p{
+    color: #063f5a
+}
+
+.li_3 ul, li{
+    color: #063f5a;
+}
+
+.links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #15516d;
+}
+
+.li_5 dl, dt{
+    color: #063f5a;
+}
+
+.li_5 dl, dd{
+    color: #063f5a;
+    font-weight: 600;
+}
+
+/*--------- COMMON ---------*/
+.button{
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 25px;
+    border: 2px solid transparent;
+    display: inline-block;
+    color: #115a7b;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #115a7b;
+    color: rgb(193, 255, 255);
+}

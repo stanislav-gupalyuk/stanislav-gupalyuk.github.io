@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #282828;
+}
+
+.body-container{
+    background-color: #d1d1d1;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0px 55px;
+    width: 1120px;
+    background-color: #ffffff;
+}
+
+/*  -------------------------  HEADER  -------------------------  */
+header{
+    margin: 0 100px 0 100px;
+}
+
+header .name{
+    width: 650px;
+}
+
+header .name p{
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 90px;
+    font-weight: lighter;
+}
+
+header .nav{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+header .nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+#first{
+    text-decoration: none;
+    font-weight: normal;
+}
+#second{
+    text-decoration: none;
+    font-weight: normal;
+}
+#third{
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.my-line{
+    border-top: 1px dashed #000;
+    height: 18px;
+    margin-top: -3px;
+}
+
+/*  -------------------------  PERSONAL  -------------------------  */
+.personal{
+    margin: 0 100px 0 100px;
+    font-size: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 45px;
+}
+
+.personal .my-info{
+    border-bottom: 5px solid black;
+    padding-top: 35px;
+    margin-bottom: 60px;
+}
+
+.personal .my-info h1{
+    height: 66px;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-shadow: 2px 5px 1px rgba(212, 212, 212, 0.7);
+}
+
+.left-info{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-info .photo{
+    background-image: url("kot.jpg");
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 40px;
+}
+
+.right-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 580px;
+}
+
+.right-info .name{
+    width: 500px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: bottom right;
+    background: linear-gradient(135deg, black 50%, transparent 50%);
+    margin-top: 10px;
+}
+
+.right-info .name p{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.right-info .desciption{
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 33px;
+    padding-bottom: 25px;
+}
+
+.right-info .citation{
+    background-color: #d1d1d1;
+    padding-top: 28px;
+    
+}
+
+.right-info .citation p{
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-info #author{
+    font-style: normal;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/*  -------------------------  CKILLS  -------------------------  */
+.skills{
+    margin: 0 100px 0 100px;
+    font-size: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+
+}
+
+.skills-left{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.my-skills{
+    width: 350px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: bottom right;
+    background: linear-gradient(135deg, black 50%, transparent 50%);
+    margin-top: 10px;
+}
+
+.my-skills>p{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.programs{
+    margin-top: 20px;
+}
+
+.programs p{
+    line-height: 35px;
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.pht{
+    width: 280px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d1d1d1;
+}
+.html{
+    width: 340px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d1d1d1;
+}
+.css{
+    width: 340px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d1d1d1;
+}
+.js{
+    width: 280px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d1d1d1;
+}
+.angl{
+    width: 205px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #d1d1d1;
+}
+
+.line{
+    text-align: left;
+    font-size: 0;
+}
+
+.line p{
+    display: inline-block;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    line-height: 10px;
+    font-size: 15px;
+    padding: 0;
+    color: transparent;
+}
+
+.number{
+    text-align: left;
+    font-size: 0;
+}
+
+.number p{
+    display: inline-block;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    line-height: 12px;
+    font-size: 15px;
+    padding: 0;
+    color: transparent;
+}
+
+.number p b{
+    color: black;
+    line-height: 15px;
+    font-style: normal;
+}
+
+/*  ckills-right  */
+
+.skills-right{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.my-doings{
+    width: 350px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: bottom right;
+    background: linear-gradient(135deg, black 50%, transparent 50%);
+    margin-top: 10px;
+}
+
+.my-doings>p{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.list{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.list p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.list .round{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(black 70%, transparent 70%);
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.list #one{
+    display: inline-block;
+    width: 425px;
+    vertical-align: top;
+}
+
+
+/*  -------------------------  MIDDLE  -------------------------  */
+.middle{
+    margin: 0 100px 0 100px;
+    text-align: center;
+    font-size: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.middle .logo{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    vertical-align: top;
+    background-image: url("com.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.middle .text{
+    display: inline-block;
+    width: 739px;
+    vertical-align: top;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.middle .text p{
+padding-left: 40px;
+text-align: justify;
+}
+
+/*  -------------------------  FOOTER  -------------------------  */
+footer{
+    margin: 0 100px 0 100px;
+    background-color: black;
+    padding-top: 15px;
+}
+
+.f-left{
+    display: inline-block;
+    width: 470px;
+    vertical-align: top;
+    color: white;
+    padding-left: 50px;
+}
+
+.f-left .contacts{
+    display: inline-block;
+    width: 230px;
+    vertical-align: top;
+}
+
+.f-left .contacts h2{
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.f-left .contacts p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.f-left .social{
+    display: inline-block;
+    width: 230px;
+    vertical-align: top;
+
+}
+
+.f-left .social h2{
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.f-left .social a{
+    display: block;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.school{
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+/*  footer-right  */
+
+.f-right{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+
+}
+
+.grad{
+    width: 230px;
+    height: 230px;
+    background: radial-gradient(closest-side circle at center, white 65%, black 65%, 
+    black 85%, white 85%);
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.grad p{
+    color: black;
+    text-align: center;
+    margin: 85px 30px;
+    font-size: 25px;
+}
