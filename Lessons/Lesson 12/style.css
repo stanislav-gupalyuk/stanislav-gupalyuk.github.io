@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+
+body{
+    background-image: url("soty.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+main{
+    background-image: url("main.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-top: 10px solid rgba(6, 135, 177, 0.4);
+    border-radius: 0 0 20px 20px;
+}
+
+header{
+    background: linear-gradient(270deg, #65a9d0 40%, #9ed0e7 60%);
+    border-radius: 20px 20px 0 0;
+
+}
+
+.head_name{
+    display: inline-block;
+    width: 550px;
+    font-size: 0;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.head_name .logo{
+    background-image: url("com.png");
+    display: inline-block;
+    width: 55px;
+    height: 95px;
+    padding-left: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.head_name h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #115a7b;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #40c0f1;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 650px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.content>h3{
+    color: rgb(54, 54, 54);
+    text-align: center;
+    line-height: 40px;
+}
+/*--------------------------------- KOLO ---------------------------------*/
+.anime{
+    width: 400px;
+    margin: 50px 10px 50px 20px;
+    perspective: 500px;
+    font-size: 0;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.x{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    background: linear-gradient(to bottom, orange, red);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 10px rgba(61, 61, 61, 0.5);
+    animation-name: rolling;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.y{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    background: linear-gradient(to bottom, red, orange);
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 50%;
+    margin-top: -25px;
+    box-shadow: 0 0 10px rgba(61, 61, 61, 0.5);
+    transition-duration: 1s;
+}
+
+.y:hover{
+    transform: scale(3);
+}
+
+
+@keyframes rolling{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(300px)  rotate(5turn);
+    }
+}
+/*--------------------------------- PRELOADER ---------------------------------*/
+.preloader{
+    width: 300px;
+    background-color: steelblue;
+    margin: 10px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    line-height: 200px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 0 25px rgba(70, 70, 70, 0.7);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.balls{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px 0 15px;
+    animation-name: all;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+}
+
+.balls:first-child{
+    background-color: white;
+    animation-name: first;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.balls:nth-child(2){
+    margin-left: 0;
+}
+
+.balls:last-child {
+    animation-name: last;
+    margin-right: 0;
+}
+
+@keyframes all{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(40px);
+    }
+}
+
+@keyframes first{
+    from{
+        transform: scale(0.01);
+    }
+    to{
+        transform: scale(1);
+
+    }
+}
+
+@keyframes last{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: scale(0.01);
+    }
+}
+/*--------------------------------- KUB ---------------------------------*/
+section{
+    width: 300px;
+    margin: 1px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.picture{
+    width: 90px;
+    height: 90px;
+    background-color: salmon;
+    display: inline-block;
+    margin: 3px;
+    transition-duration: 1s;
+}
+
+.picture:hover{
+    transform: scale(1.5);
+    background-color: red;
+}
+/*--------------------------------- PULSAR ---------------------------------*/
+.round{
+    width: 120px;
+    margin: 50px auto;
+    perspective: 500px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kolo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(60, 185, 235);
+    display: inline-block;
+    animation-name: pulsation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    box-shadow: 0 0 15px rgba(61, 61, 61, 0.7);
+}
+
+@keyframes pulsation{
+    from{
+        transform: scale(0.3);
+    }
+    to{
+        transform: scale(1);
+        background-color: rgb(35, 49, 179);
+        box-shadow: 0 0 15px rgba(61, 61, 61, 0.7);
+    }
+}
+/*------------------------------------------------------------------*/
+.table_2{
+    border: ridge 1px #063f5a;
+    background-color: rgba(143, 142, 142, 0.3);
+}
+
+.content{
+    padding: 30px 30px;
+    width: auto;
+}
+
+td{
+    border: solid 1px #063f5a;
+    border-color:#6a8997;
+}
+
+.table_head{
+    background-color:#3e7088;
+}
+
+.table_2 h3{
+    line-height: 60px;
+    color: #063f5a;
+}
+.table_2{
+    width: 90%;
+    line-height: 30px;
+    margin: auto;
+}
+
+.table_2 td{
+    text-align: center;
+    color: #063f5a;
+}
+
+.photo{
+    width: 1200;
+    height: 875px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    background-image: url("trsf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo2{
+    width: 1200;
+    height: 875px;
+    margin-top: -110px;
+    margin-bottom: -110px;
+    background-image: url("trn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.photo3{
+    width: 1200;
+    height: 494px;
+    background-image: url("anim.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo4{
+    width: 1200;
+    height: 771px;
+    background-image: url("anim2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+/*--------- COMMON ---------*/
+.button{
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0 25px;
+    border: 2px solid transparent;
+    display: inline-block;
+    color: #115a7b;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #115a7b;
+    color: rgb(193, 255, 255);
+}
