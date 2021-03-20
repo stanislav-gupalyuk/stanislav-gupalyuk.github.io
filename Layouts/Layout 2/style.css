@@ -47,16 +47,35 @@ header .nav a{
     margin-left: 25px;
     color: black;
     font-weight: bold;
+
+}
+
+#my{
+    animation-name: navigation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes navigation{
+    from{
+        color: black;
+    }
+    to{
+        color: red;
+    }
 }
 
 #first{
     text-decoration: none;
     font-weight: normal;
 }
+
 #second{
     text-decoration: none;
     font-weight: normal;
 }
+
 #third{
     text-decoration: none;
     font-weight: normal;
@@ -102,6 +121,12 @@ header .nav a{
     background-position: center;
     background-size: cover;
     margin-right: 40px;
+    transition-duration: 1s;
+}
+
+.left-info .photo:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 25px rgba(78, 78, 78, 0.7);
 }
 
 .right-info{
@@ -116,8 +141,21 @@ header .nav a{
     background-repeat: no-repeat;
     background-size: 50px 50px;
     background-position: bottom right;
-    background: linear-gradient(135deg, black 50%, transparent 50%);
     margin-top: 10px;
+    animation-name: named;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes named{
+    from{
+        background: linear-gradient(135deg, black 50%, transparent 50%);
+    }
+    to{
+        background: linear-gradient(135deg, rgb(83, 83, 83) 50%, transparent 50%);
+    }
 }
 
 .right-info .name p{
@@ -178,8 +216,12 @@ header .nav a{
     background-repeat: no-repeat;
     background-size: 50px 50px;
     background-position: bottom right;
-    background: linear-gradient(135deg, black 50%, transparent 50%);
     margin-top: 10px;
+    animation-name: named;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 .my-skills>p{
@@ -205,31 +247,110 @@ header .nav a{
     width: 280px;
     height: 35px;
     margin-bottom: 15px;
-    background-color: #d1d1d1;
+    animation-name: photoshop;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+@keyframes photoshop{
+    from{
+        background-color: transparent;
+        width: 0px;
+    }
+    to{
+        background-color: #d1d1d1;
+        width: 280px;
+    }
+}
+
 .html{
     width: 340px;
     height: 35px;
     margin-bottom: 15px;
-    background-color: #d1d1d1;
+    animation-name: h_t_m_l;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+@keyframes h_t_m_l{
+    from{
+        background-color: transparent;
+        width: 0px;
+    }
+    to{
+        background-color: #d1d1d1;
+        width: 340px;
+    }
+}
+
 .css{
     width: 340px;
     height: 35px;
     margin-bottom: 15px;
-    background-color: #d1d1d1;
+    animation-name: c_s_s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+@keyframes c_s_s{
+    from{
+        background-color: transparent;
+        width: 0px;
+    }
+    to{
+        background-color: #d1d1d1;
+        width: 340px;
+    }
+}
+
 .js{
     width: 280px;
     height: 35px;
     margin-bottom: 15px;
-    background-color: #d1d1d1;
+    animation-name: j_s;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+@keyframes j_s{
+    from{
+        background-color: transparent;
+        width: 0px;
+    }
+    to{
+        background-color: #d1d1d1;
+        width: 280px;
+    }
+}
+
 .angl{
     width: 205px;
     height: 35px;
     margin-bottom: 15px;
-    background-color: #d1d1d1;
+    animation-name: a_n_g_l;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes a_n_g_l{
+    from{
+        background-color: transparent;
+        width: 0px;
+    }
+    to{
+        background-color: #d1d1d1;
+        width: 205px;
+    }
 }
 
 .line{
@@ -283,8 +404,12 @@ header .nav a{
     background-repeat: no-repeat;
     background-size: 50px 50px;
     background-position: bottom right;
-    background: linear-gradient(135deg, black 50%, transparent 50%);
     margin-top: 10px;
+    animation-name: named;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 .my-doings>p{
@@ -310,11 +435,23 @@ header .nav a{
     display: inline-block;
     width: 15px;
     height: 15px;
-    background: radial-gradient(black 70%, transparent 70%);
     vertical-align: top;
     margin-right: 5px;
+    animation-name: rounds;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
+@keyframes rounds{
+    from{
+        background: radial-gradient(black 70%, transparent 70%);
+    }
+    to{
+        background: radial-gradient(rgb(83, 83, 83) 70%, transparent 70%);
+    }
+}
 .list #one{
     display: inline-block;
     width: 425px;
@@ -329,6 +466,7 @@ header .nav a{
     font-size: 0;
     padding-top: 20px;
     padding-bottom: 15px;
+    perspective: 500px;
 }
 
 .middle .logo{
@@ -342,6 +480,20 @@ header .nav a{
     background-size: cover;
     margin-left: 30px;
     margin-right: 10px;
+    animation-name: logos;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes logos{
+    from{
+        transform: rotateY(0turn);
+    }
+    to{
+        transform: rotateY(1turn);
+    }
 }
 
 .middle .text{
@@ -350,7 +502,6 @@ header .nav a{
     vertical-align: top;
     font-size: 15px;
     padding-top: 10px;
-
 }
 
 .middle .text p{
@@ -431,10 +582,26 @@ footer{
 .grad{
     width: 230px;
     height: 230px;
-    background: radial-gradient(closest-side circle at center, white 65%, black 65%, 
-    black 85%, white 85%);
     border-radius: 50%;
     border: 10px solid black;
+    animation-name: g_rad;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes g_rad{
+    from{
+        background: radial-gradient(closest-side circle at center, pink 65%, black 65%, 
+        black 85%, pink 85%);
+        transform: scale(0.5);
+    }
+    to{
+        background: radial-gradient(closest-side circle at center, white 65%, black 65%, 
+        black 85%, white 85%);
+        transform: scale(1);
+    }
 }
 
 .grad p{

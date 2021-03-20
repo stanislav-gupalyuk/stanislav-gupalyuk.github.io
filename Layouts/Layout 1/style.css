@@ -30,10 +30,15 @@ header nav a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    transition-duration: 1s;
 }
 
 header nav a.active{
     background-color: #ff3f40;
+}
+
+nav a:hover{
+    transform: scale(1.5);
 }
 
 .present{
@@ -88,8 +93,8 @@ section .container{
     padding-top: 110px;
     padding-bottom: 0;
     border-bottom: 2px solid #ececec;
-    
 }
+
 section .present{
     padding-bottom: 0;
 }
@@ -125,7 +130,34 @@ section .present{
     width: 610px;
     vertical-align: top;
     margin-left: 105px;
+}
 
+.manag:hover{
+    transform: scaleX(1.05);
+    transform: translate(-10px, -10px);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.7);
+    transition-duration: 1s;
+}
+
+.design:hover{
+    transform: scale(1.05);
+    transform: translate(10px, -10px);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.7);
+    transition-duration: 1s;
+}
+
+.brand:hover{
+    transform: scale(1.05);
+    transform: translate(-10px, 10px);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.7);
+    transition-duration: 1s;
+}
+
+.anim:hover{
+    transform: scale(1.05);
+    transform: translate(10px, 10px);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.7);
+    transition-duration: 1s;
 }
 
 .part-right .manag{
@@ -133,6 +165,7 @@ section .present{
     width: 290px;
     padding-bottom: 45px;
     margin-right: 5px;
+    transition-duration: 1s;
 }
 .logo1{
     width: 40px;
@@ -163,6 +196,7 @@ section .present{
     display: inline-block;
     width: 290px;
     padding-bottom: 45px;
+    transition-duration: 1s;
 }
 .logo2{
     width: 40px;
@@ -193,6 +227,7 @@ section .present{
     display: inline-block;
     width: 290px;
     margin-right: 5px;
+    transition-duration: 1s;
 }
 .logo3{
     width: 40px;
@@ -222,6 +257,7 @@ section .present{
 .part-right .anim{
     display: inline-block;
     width: 290px;
+    transition-duration: 1s;
 }
 .logo4{
     width: 40px;
@@ -250,6 +286,8 @@ section .present{
 /* Section - products */
 .products .container{
     padding-top: 0;
+    border-bottom: 1px solid transparent;
+
 }
 
 .products h2{
@@ -301,14 +339,74 @@ section .present{
 
 .links .first{
     color: #ff2d2d;
+    animation-name: link;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes link{
+    from{
+        color: #737373;
+        transform: translateX(0px);
+    }
+    to{
+        color: #ff2d2d;
+        transform: translateX(-20px);
+    }
 }
 
 /* Section - products - galary */
 .galery{
     padding: 55px 7px 0 7px;
     font-size: 0;
+}
 
+.pic1:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+.pic2:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+.pic3:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
 
+.pic4:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+
+.pic5:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+
+.pic6:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+
+.pic7:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
+}
+
+.pic8:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px rgba(44, 44, 44, 0.8);
+    transition-duration: 1s;
 }
 
 .galery .pic1{
@@ -320,6 +418,7 @@ section .present{
     height: 290px;
     margin-right: 22px;
     margin-bottom: 20px;
+    transition-duration: 1s;
 
 }
 .galery .pic2{
@@ -331,6 +430,7 @@ section .present{
     height: 290px;
     margin-right: 22px;
     margin-bottom: 20px;
+    transition-duration: 1s;
     
 }
 .galery .pic3{
@@ -342,6 +442,7 @@ section .present{
     height: 290px;
     margin-right: 22px;
     margin-bottom: 20px;
+    transition-duration: 1s;
 }
 .galery .pic4{
     background-image: url("img4.jpg");
@@ -351,6 +452,7 @@ section .present{
     width: 290px;
     height: 290px;
     margin-bottom: 20px;
+    transition-duration: 1s;
     
 }
 .galery .pic5{
@@ -361,6 +463,7 @@ section .present{
     width: 290px;
     height: 290px;
     margin-right: 22px;
+    transition-duration: 1s;
     
 }
 .galery .pic6{
@@ -371,6 +474,7 @@ section .present{
     width: 290px;
     height: 290px;
     margin-right: 22px;
+    transition-duration: 1s;
     
 }
 .galery .pic7{
@@ -381,6 +485,7 @@ section .present{
     width: 290px;
     height: 290px;
     margin-right: 22px;
+    transition-duration: 1s;
     
 }
 .galery .pic8{
@@ -390,6 +495,7 @@ section .present{
     display: inline-block;
     width: 290px;
     height: 290px;
+    transition-duration: 1s;
 }
 
 /* Section - products - teem */
@@ -418,6 +524,21 @@ section .present{
     width: 130px;
     border-bottom: 2px solid #ff3b3b;
     padding-top: 24px;
+    animation-name: team_desc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+
+@keyframes team_desc{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 130px;
+    }
 }
 
 /* Section - products - staff */
@@ -430,7 +551,7 @@ section .present{
 .staff-left{
     display: inline-block;
     vertical-align: top;
-    margin-right: 72px;
+    margin-right: 52px;
 }
 
 .staff-left .photo{
@@ -490,8 +611,28 @@ section .present{
 
 .staff-photo{
     padding-top: 55px;
+    perspective: 700px;
 }
 
+.uno{
+    transition-duration: 1s;
+    position: relative;
+    display: inline-block;
+    animation-name: my2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my2{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+
+}
 .pht1{
     display: inline-block;
     width: 197px;
@@ -501,8 +642,75 @@ section .present{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    animation-name: my3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my3{
+    from{
+    }
+    to{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+.pht11{
+    text-align: center;
+    display: inline-block;
+    width: 197px;
+    height: 214px;
+    line-height: 214px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120.5px;
+    animation-name: my4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    padding-right: 20px;
+}
+@keyframes my4{
+    0%{
+        color: transparent;
+    }
+    60%{
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: fuchsia;
+        z-index: 1;
+        transform: rotateY(180deg);
+        text-shadow: 0 0 5px rgba(37, 37, 37, 0.7);
+    }
 }
 
+/*-----------------------------------------*/
+
+.uno1{
+    transition-duration: 1s;
+    position: relative;
+    display: inline-block;
+    animation-name: my2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my2{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
 .pht2{
     display: inline-block;
     width: 197px;
@@ -512,8 +720,73 @@ section .present{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    animation-name: my3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my3{
+    from{
+    }
+    to{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+.pht22{
+    text-align: center;
+    display: inline-block;
+    width: 197px;
+    height: 214px;
+    line-height: 214px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120.5px;
+    animation-name: my4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my4{
+    0%{
+        color: transparent;
+    }
+    60%{
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: fuchsia;
+        z-index: 1;
+        transform: rotateY(180deg);
+    }
 }
 
+/*-----------------------------------------*/
+
+.uno2{
+    transition-duration: 1s;
+    position: relative;
+    display: inline-block;
+    animation-name: my2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my2{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
 .pht3{
     display: inline-block;
     width: 197px;
@@ -523,16 +796,127 @@ section .present{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    animation-name: my3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my3{
+    from{
+    }
+    to{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+.pht33{
+    text-align: center;
+    display: inline-block;
+    width: 197px;
+    height: 214px;
+    line-height: 214px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120.5px;
+    animation-name: my4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my4{
+    0%{
+        color: transparent;
+    }
+    60%{
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: fuchsia;
+        z-index: 1;
+        transform: rotateY(180deg);
+    }
 }
 
+/*-----------------------------------------*/
+
+.uno3{
+    transition-duration: 1s;
+    position: relative;
+    display: inline-block;
+    animation-name: my2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my2{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
+}
 .pht4{
     display: inline-block;
     width: 197px;
     height: 214px;
+    margin-right: 20px;
     background-image: url("anim2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: 1;
+    animation-name: my3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my3{
+    from{
+    }
+    to{
+        opacity: 0;
+        z-index: 0;
+    }
+}
+.pht44{
+    text-align: center;
+    display: inline-block;
+    width: 197px;
+    height: 214px;
+    line-height: 214px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120.5px;
+    animation-name: my4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes my4{
+    0%{
+        color: transparent;
+    }
+    60%{
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: fuchsia;
+        z-index: 1;
+        transform: rotateY(180deg);
+    }
 }
 
 /* Section - mail */
@@ -917,11 +1301,30 @@ footer .container-second{
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    animation-name: lborder;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes lborder{
+    from{
+        background-color: pink;
+        color: #ff0000;
+
+    }
+    to{
+        background-color: red;
+        color: white;
+    }
 }
 
 .button:hover{
     background-color: #ff0000;
     color: white;
+    box-shadow: 0 0 15px rgba(44, 44, 44, 0.7);
+    animation-play-state: paused;
 }
 
 .last-line{
