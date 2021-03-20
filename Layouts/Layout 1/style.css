@@ -335,7 +335,14 @@ section .present{
     font-weight: lighter;
     text-transform: uppercase;
     margin: 0 30px;
+    transition-duration: 1s;
 }
+
+.links a:hover{
+    transform: scale(1.3);
+    text-shadow: 0 0 5px rgba(66, 66, 66, 0.7);
+}
+
 
 .links .first{
     color: #ff2d2d;
@@ -345,16 +352,9 @@ section .present{
     animation-direction: alternate;
     animation-timing-function: linear;
 }
-
-@keyframes link{
-    from{
-        color: #737373;
-        transform: translateX(0px);
-    }
-    to{
-        color: #ff2d2d;
-        transform: translateX(-20px);
-    }
+.links .first:hover{
+    transform: scale(1.3);
+    text-shadow: 0 0 5px rgba(66, 66, 66, 0.7);
 }
 
 /* Section - products - galary */
@@ -561,6 +561,12 @@ section .present{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition-duration: 1s;
+}
+.staff-left .photo:hover{
+    transform: scale(1.3);
+    box-shadow: 0 0 25px rgba(66, 66, 66, 0.7);
+
 }
 
 
@@ -1301,6 +1307,15 @@ footer .container-second{
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+
+}
+
+
+
+.button:hover{
+    background-color: #ff0000;
+    color: white;
+    box-shadow: 0 0 15px rgba(44, 44, 44, 0.7);
     animation-name: lborder;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -1318,13 +1333,6 @@ footer .container-second{
         background-color: red;
         color: white;
     }
-}
-
-.button:hover{
-    background-color: #ff0000;
-    color: white;
-    box-shadow: 0 0 15px rgba(44, 44, 44, 0.7);
-    animation-play-state: paused;
 }
 
 .last-line{
