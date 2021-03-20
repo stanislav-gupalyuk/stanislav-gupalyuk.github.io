@@ -1306,13 +1306,13 @@ footer .container-second{
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: linear;
+    animation-direction: alternate;
 }
 
 @keyframes lborder{
     from{
-        background-color: pink;
+        background-color: rgb(253, 221, 226);
         color: #ff0000;
-
     }
     to{
         background-color: red;
