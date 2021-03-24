@@ -1,0 +1,11 @@
+@font-face{
+    font-family: "Segoe";
+    font-weight: lighter;
+    src: url("SegoeWPSemiLight.ttf");
+}
+
+@font-face{
+    font-family: "Segoe";
+    font-weight: bold;
+    src: url("SegoeWPSemibold.ttf");
+}
