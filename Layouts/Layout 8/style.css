@@ -249,6 +249,14 @@ main .right{
     left: 0;
 }
 
+main .right:hover{
+    transform: scale(1.1);
+}
+main .left:hover{
+    transform: scale(1.1);
+}
+
+
 /*----------------------------------- TELL -----------------------------------*/
 .tell{
     display: inline-block;
