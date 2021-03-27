@@ -222,6 +222,9 @@ main .tell-main>a:hover{
     background-color: white;
     top: calc(100% + 2px);
     z-index: 5;
+    border-bottom: 2px solid #dedede;
+    border-left: 2px solid #dedede;
+    border-right: 2px solid #dedede;
 }
 
 .bab-main .kub{
@@ -233,6 +236,9 @@ main .tell-main>a:hover{
     border-bottom: 2px solid #dedede;
     background-color: white;
     z-index: 5;
+    border-bottom: 2px solid #dedede;
+    border-left: 2px solid #dedede;
+    border-right: 2px solid #dedede;
 }
 
 .planet-main .kub{
@@ -245,6 +251,9 @@ main .tell-main>a:hover{
     border-bottom: 2px solid #dedede;
     background-color: white;
     z-index: 5;
+    border-bottom: 2px solid #dedede;
+    border-left: 2px solid #dedede;
+    border-right: 2px solid #dedede;
 }
 
 .search-main .kub{
@@ -254,9 +263,13 @@ main .tell-main>a:hover{
 .search-main:hover .kub{
     display: block;
     top: calc(100% + 2px);
+    margin-left: -4px;
     border-bottom: 2px solid #dedede;
     background-color: white;
     z-index: 5;
+    border-bottom: 2px solid #dedede;
+    border-left: 2px solid #dedede;
+    border-right: 2px solid #dedede;
 }
 
 main .bag-main>a:hover h4{
