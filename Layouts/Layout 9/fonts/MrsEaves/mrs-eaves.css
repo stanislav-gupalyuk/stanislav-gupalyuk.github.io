@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "MrsEaves";
+    font-weight: normal;
+    src: url("MrsEavesRoman.otf");
+}
+
+@font-face{
+    font-family: "MrsEaves";
+    font-weight: bold;
+    src: url("MrsEavesBold.OTF");
+}
+
+@font-face{
+    font-family: "MrsEaves";
+    font-weight: initial;
+    src: url("MrsEavesItalic.otf");
+}
