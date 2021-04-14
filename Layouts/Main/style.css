@@ -255,6 +255,18 @@ nav{
     margin: 10px;
 }
 
+.mak-14{
+    display: inline-block;
+    background-image: url("maket_14.jpg");
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin: 10px;
+}
+
 /*------------------------------------------------*/
 .mak-3 .button{
     width: 200px;
