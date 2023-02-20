@@ -1,9 +1,24 @@
-/*!
- * jQuery ClassyLeaves
- * www.class.pm
- *
- * Written by Marius Stanciu - Sergiu <marius@class.pm>
- * Licensed under the MIT license www.class.pm/LICENSE-MIT
- * Version 1.1.0
- *
- */.ClassyLeaf,.ClassyLeafFalling{position:fixed;top:0;left:0;opacity:0;z-index:0}.x1{width:50px;height:50px}.x2{width:60px;height:60px}.x3{width:70px;height:70px}.x4{width:80px;height:80px}
+.ClassyLeaf,
+.ClassyLeafFalling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 800;
+}
+.x1 {
+    width: 40px;
+    height: 40px;
+}
+.x2 {
+    width: 50px;
+    height: 50px;
+}
+.x3 {
+    width: 60px;
+    height: 60px;
+}
+.x4 {
+    width: 70px;
+    height: 70px;
+}
